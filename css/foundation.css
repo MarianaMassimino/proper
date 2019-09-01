@@ -282,9 +282,9 @@ a.global-nav-link:hover, a.global-nav-link.active{
     font-size: 0;
 }
 .home .bookkeepers img{
-    max-width: 272px;
-    height: auto;
-    display: block;
+    display: inline-block;
+    max-width: 24%;
+    width: auto;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - */
 
@@ -376,16 +376,15 @@ footer a.contact{
     padding-right: 8px;
     margin-right: 16px;
 }
+.home .bookkeepers img{
+    max-width: 32%;
+}
 }
 
 @media (max-width: 767px) {
 
 body{
     padding-top: 124px;
-}
-.global-nav.fixed img.logo{
-    content: url('../img/proper-logo.svg');
-    width: 162px;
 }
 .mobile-fixed-menu {
     display: initial;
@@ -408,8 +407,21 @@ body{
 .global-nav .left{
     display: none;
 }
+.global-nav{
+    background-color: #ffffff;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 50;
+}
+.global-nav.fixed img.logo{
+    content: url('../img/proper-logo.svg');
+    width: 139px;
+}
 .global-nav.fixed{
-    display: none;
+    box-shadow: none;
 }
 h1.big{
     font-size: 48px;
@@ -466,6 +478,9 @@ p.v-24{
     max-width: 360px;
     padding-bottom: 24px;
 }
+.home .bookkeepers img{
+    max-width: 50%;
+}
 .home .bookkeepers img.name-3{
     display: none;
 }
@@ -483,7 +498,6 @@ p.v-24{
 }
 .global-footer .flex small{
     margin-top: 56px;
-
 }
 .global-footer .flex, footer .footer-nav {
     display: block;
