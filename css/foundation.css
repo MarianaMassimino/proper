@@ -279,12 +279,12 @@ a.global-nav-link:hover, a.global-nav-link.active{
     max-width: 784px;
 }
 .home .bookkeepers .img-container{
-    display: flex;
-    flex-flow: row;
     font-size: 0;
 }
 .home .bookkeepers img{
-    width: 26%;
+    max-width: 272px;
+    height: auto;
+    display: block;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - */
 
@@ -369,9 +369,6 @@ a.global-nav-link {
 }
 }
 @media (max-width: 960px) {
-.home .bookkeepers img{
-    width: 33%;
-}
 .home .bookkeepers img.name-4{
     display: none;
 }
@@ -464,9 +461,6 @@ p.v-24{
 .pricing img, .accuracy img{
     max-width: 360px;
     padding-bottom: 24px;
-}
-.home .bookkeepers img{
-    width: 50%;
 }
 .home .bookkeepers img.name-3{
     display: none;
