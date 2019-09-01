@@ -383,6 +383,10 @@ footer a.contact{
 body{
     padding-top: 124px;
 }
+.global-nav.fixed img.logo{
+    content: url('../img/proper-logo.svg');
+    width: 162px;
+}
 .mobile-fixed-menu {
     display: initial;
     background-color: #ffffff;
