@@ -10,9 +10,9 @@ var lastScrollTop = 0;
            }
            lastScrollTop = st;
         });
-
-$(document).ready(function(){
-  $('#hamburguer').click(function(){
-    $('menu').addClass('show');
+  $( function() {
+    $('#button').click( function() {
+      $('.mobile-menu-items').toggleClass('show');
+      $('.hamburguer-button').toggleClass('close');
+    });
   });
-});
