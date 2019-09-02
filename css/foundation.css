@@ -389,7 +389,7 @@ body{
 .mobile-fixed-menu {
     display: initial;
     background-color: #ffffff;
-    padding: 8px;
+    padding: 12px 32px;
     overflow: hidden;
     position: fixed;
     left: 0;
@@ -400,9 +400,13 @@ body{
     transition: all 0.2s linear;
     font-size: 0;
 }
-.hamburguer img{
+.band{
+    display: flex;
+    justify-content: space-between;
+}
+.band img{
     width: 32px;
-    float: right;
+    flex-direction: row;
 }
 .global-nav .left{
     display: none;
